@@ -27,7 +27,7 @@ The outter for-loop is only going to run n times, no matter the size of n, so th
 
 The inner while loop on its own would have a runtime of O(logn) because the value of j is being doubled in every iteration, so the evaluation of j < n is going to return false quickly.
 
-Part of me thinks this might just be O(n) since the while-loop will stop firing before the for-loop ends in most cases, but it still feels safer to combine their runtimes to O(nlogn).
+Part of me thinks this might just be O(n) since the while-loop will stop firing long before the for-loop ends in most cases, but it still feels safer to combine their runtimes to O(nlogn).
 
 c) O(n)
 
